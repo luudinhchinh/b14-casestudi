@@ -1,0 +1,68 @@
+canvas
+{
+    display: block;
+    margin: 0 auto;
+    border: none;
+    background: black;;
+}
+
+h2
+{
+    font-family: "Arial", monospace;
+    position: absolute;
+    color: black;
+    left: 25%;
+    top: 70%;
+}
+
+.reset {
+    display: inline-block;
+    position: absolute;
+    margin-left: 51%;
+    margin-top: 1%;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: purple;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.reset:hover {background-color: #58257b}
+
+.reset:active {
+    background-color: #58257b;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.start {
+    display: inline-block;
+    position: absolute;
+    margin-left: 42%;
+    margin-top: 1%;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: purple;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.start:hover {background-color: #58257b}
+
+.start:active {
+    background-color: #58257b;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
